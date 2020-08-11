@@ -51,9 +51,16 @@ export const BannerImage = styled.div `
         height: 50%;
         position: relative;
     }
-    @media screen and (min-width: 1000px){
+    @media (min-width: 1000px){
         h2 {
             top: 50%;
+        }
+    }
+
+    @media screen {
+        h2 {
+            font-size: 2rem;
+            top: 20%;
         }
     }
 `;
