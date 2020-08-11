@@ -51,7 +51,7 @@ export const BannerImage = styled.div `
         height: 50%;
         position: relative;
     }
-    @media screen and (min-width: 815px){
+    @media screen and (min-width: 1000px){
         h2 {
             top: 50%;
         }

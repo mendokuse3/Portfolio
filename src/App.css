@@ -33,10 +33,21 @@
 }
 
 .skills div span ul {
-  /* text-align: left; */
   display: flex;
   justify-content: space-evenly;
 }
+
+@media (max-width: 1000px){
+  .skills div span ul {
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .skills div span ul li {
+    margin-right: 1em;
+  }
+}
+
+
 
 @keyframes App-logo-spin {
   from {
