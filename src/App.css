@@ -32,6 +32,13 @@
   background-color: rgba(82, 80, 80, 0.8);
 }
 
+@media(min-width: 1000px){
+  .VlcGv .websiteSubtitle {
+    font-size: 4rem;
+    top: 40%;
+  }
+}
+
 .skills div span ul {
   display: flex;
   justify-content: space-evenly;
