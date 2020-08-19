@@ -26,7 +26,7 @@ function App() {
       <div>
         <headings.BannerImage>
           <img src={data.fields.bannerImage.fields.file.url} alt={data.fields.bannerImage.fields.title}/>
-          <headings.HeaderTwo larger className='websiteSubtitle'>{data.fields.websiteSubtitle}</headings.HeaderTwo>
+          <headings.HeaderTwo larger className='websiteSubtitle' id='websiteSubtitle'>{data.fields.websiteSubtitle}</headings.HeaderTwo>
         </headings.BannerImage>
 
       <Layout>

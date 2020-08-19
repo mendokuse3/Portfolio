@@ -33,7 +33,7 @@
 }
 
 @media(min-width: 1000px){
-  .VlcGv .websiteSubtitle {
+    #websiteSubtitle {
     font-size: 4rem;
     top: 40%;
   }
