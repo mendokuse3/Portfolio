@@ -32,6 +32,10 @@
   background-color: rgba(82, 80, 80, 0.8);
 }
 
+.project-link:hover {
+  opacity: 50%;
+}
+
 @media(min-width: 1000px){
     #websiteSubtitle {
     font-size: 4rem;
