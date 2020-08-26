@@ -32,9 +32,9 @@
   background-color: rgba(82, 80, 80, 0.8);
 }
 
-.project-link img:hover {
-  opacity: 25%;
-  /* background-color: black; */
+.project-link:hover {
+  /* opacity: 50%; */
+  background-color: black;
 }
 
 @media(min-width: 1000px){
